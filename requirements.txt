@@ -1,0 +1,20 @@
+# --- Core numerical ---
+numpy
+scipy
+
+# --- Vision / IO ---
+opencv-python
+opencv-contrib-python
+
+# --- 3D processing ---
+open3d
+trimesh
+
+# --- RealSense ---
+pyrealsense2
+
+# --- TEASER++ Python bindings ---
+# Windows 上通常没有可用 wheel，需要源码编译后才能 import teaserpp_python
+# 1) 推荐：WSL2/Ubuntu 里 pip install teaserpp-python
+# 2) 或：从 TEASER++ 源码编译并安装 python bindings（生成 teaserpp_python）
+teaserpp-python
